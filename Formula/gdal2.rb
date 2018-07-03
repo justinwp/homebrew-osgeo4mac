@@ -5,10 +5,8 @@ class Gdal2 < Formula
   sha256 "d06546a6e34b77566512a2559e9117402320dd9487de9aa95cb8a377815dc360"
 
   bottle do
-    root_url "https://dl.bintray.com/homebrew-osgeo/osgeo-bottles"
-    rebuild 1
-    sha256 "3977607c652c1331188aa851bccee789586c0a384364e84df43bd1fe69b7beb4" => :high_sierra
-    sha256 "3977607c652c1331188aa851bccee789586c0a384364e84df43bd1fe69b7beb4" => :sierra
+    root_url "http://qgis.dakotacarto.com/bottles"
+    sha256 "db8f421f6f0fa62769a26e76848c36d048d71bfc9b99014837130fef99bf7cd5" => :sierra
   end
 
   head do
